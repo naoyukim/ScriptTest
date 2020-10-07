@@ -21,13 +21,9 @@ public class Test : MonoBehaviour
         {
             Debug.Log(array[i]);
         }
-        array[0] = 30;
-        array[1] = 20;
-        array[2] = 50;
-        array[3] = 10;
-        array[4] = 80;
+
         //配列の要素を逆順に表示する
-        for(int i = 4; i < 5; i--)
+        for (int i = 4; i >= 0; i--)
         {
             Debug.Log(array[i]);
         }
